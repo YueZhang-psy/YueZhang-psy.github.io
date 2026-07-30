@@ -129,6 +129,7 @@ p {
 .location,
 .email {
   margin-bottom: 4px;
+  font-family: var(--display-font);
 }
 
 .degree,
