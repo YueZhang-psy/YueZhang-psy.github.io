@@ -261,6 +261,10 @@ section {
   font-weight: 600;
 }
 
+.citation-line {
+  white-space: nowrap;
+}
+
 .pub-links {
   display: inline-block;
   margin-left: 6px;
@@ -338,6 +342,10 @@ footer p {
   .profile-avatar {
     width: 170px;
     height: 170px;
+  }
+
+  .citation-line {
+    white-space: normal;
   }
 }
 
