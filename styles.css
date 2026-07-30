@@ -146,10 +146,14 @@ p {
 .location,
 .email,
 .meta,
-.venue,
 .note,
 footer {
   color: var(--muted);
+}
+
+.venue {
+  color: var(--muted);
+  font-style: italic;
 }
 
 .email {
