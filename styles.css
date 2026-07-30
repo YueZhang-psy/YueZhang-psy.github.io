@@ -230,6 +230,12 @@ section {
   margin-bottom: 10px;
 }
 
+.plain-list li {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
 .publication-list li {
   margin-bottom: 16px;
 }
@@ -267,7 +273,7 @@ section {
 
 .date {
   display: inline-block;
-  min-width: 58px;
+  flex: 0 0 42px;
   color: var(--muted);
 }
 
