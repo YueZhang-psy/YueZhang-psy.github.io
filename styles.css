@@ -236,6 +236,22 @@ section {
   gap: 12px;
 }
 
+.award-details {
+  display: block;
+  min-width: 0;
+}
+
+.award-name,
+.award-org {
+  display: block;
+}
+
+.award-org {
+  color: var(--muted);
+  font-size: 13.5px;
+  line-height: 1.45;
+}
+
 .publication-list li {
   margin-bottom: 16px;
 }
